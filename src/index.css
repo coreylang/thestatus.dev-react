@@ -1,0 +1,25 @@
+@import "tailwindcss/theme";
+@import "tailwindcss/utilities";
+
+@theme {
+  --color-brand: #8B5CF6;
+  --color-brand-dark: #6D28D9;
+  --color-brand-light: #C4B5FD;
+
+  --color-black: #000000;
+  --color-black-soft: #1A1A1A;
+  --color-black-rich: #0F0F0F;
+
+  --color-white: #FFFFFF;
+  --color-white-muted: #F5F5F5;
+
+  --font-sans: "Inter", sans-serif;
+}
+
+body {
+  margin: 0px;
+}
+
+.text-glow {
+  text-shadow: 0 0 10px rgba(139, 92, 246, 0.6);
+}
